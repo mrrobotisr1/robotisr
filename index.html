@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>MR ROBOT- חנות הסמים מספר 1 בטלגרם</title>
+    <meta name="description" content="חנות הסמים  מספר 1 בטלגרם - היחידה שעושה את זה נכון בתוכנה." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .site-header .main-nav a { 
+        padding: 10px 16px; 
+        display: inline-flex !important; 
+        align-items: center; 
+        gap: 10px; 
+        line-height: 1; 
+        text-decoration: none;
+      }
+      .site-header .main-nav a .icon { 
+        font-size: 1.1rem !important; 
+        display: inline-block !important; 
+        margin-left: 5px;
+      }
+      .site-header .main-nav a .label { 
+        font-size: 0.95rem !important; 
+        display: inline-block !important; 
+      }
+      
+      /* Force icons to show */
+      .site-header .main-nav a span.icon {
+        font-size: 1.2rem !important;
+        display: inline !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+      }
+      
+      .hero-content {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        justify-content: space-between;
+      }
+      
+      .hero-text {
+        flex: 1;
+        text-align: right;
+      }
+      
+      .hero-image {
+        flex: 0 0 auto;
+      }
+      
+      .harly-logo {
+        max-width: 300px;
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+        box-shadow: 0 20px 40px rgba(255, 0, 110, 0.3);
+        transition: transform 0.3s ease;
+      }
+      
+      .harly-logo:hover {
+        transform: scale(1.05) rotate(2deg);
+      }
+      
+      @media (max-width: 768px) {
+        .hero-content {
+          flex-direction: column;
+          text-align: center;
+          gap: 30px;
+        }
+        .hero-text {
+          text-align: center;
+        }
+        .harly-logo {
+          max-width: 250px;
+        }
+      }
+      
+      @media (max-width: 480px) {
+        .hero-content {
+          gap: 20px;
+        }
+        .harly-logo {
+          max-width: 200px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <div class="logo">MR ROBOT</div>
+        <nav class="main-nav" aria-label="ניווט עליון">
+          <a href="#categories" aria-label="קטגוריות" style="display: inline-flex !important; align-items: center !important; gap: 8px !important;">
+            🗂️ קטגוריות
+          </a>
+          <a href="#about" aria-label="אודות" style="display: inline-flex !important; align-items: center !important; gap: 8px !important;">
+            ℹ️ אודות
+          </a>
+          <a href="#contact" aria-label="צרו קשר" style="display: inline-flex !important; align-items: center !important; gap: 8px !important;">
+            ✉️ צרו קשר
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="container">
+          <div class="hero-content">
+            <div class="hero-text">
+              <h1>חנות הסמים מספר 1 בטלגרם</h1>
+              <p class="subtitle">🔥 מבחר ענק של סמים איכותים במחירים משתלמים 🔥</p>
+              <a class="btn btn-telegram" href="https://t.me/m/zHb8vk3oNDU0" target="_blank" rel="noopener noreferrer">
+                <span class="icon">🔥📨🔥</span>
+                <span>לפניות להארלי קווין לחצו כאן</span>
+              </a>
+            </div>
+            <div class="hero-image">
+              <img src="images/robot.jpg" alt="הארלי - חנות הממתקים" class="harly-logo">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="categories" id="categories">
+        <div class="container">
+          <h2>🔥 קטגוריות פופולריות 🔥</h2>
+          <div class="grid">
+            <div class="card">🔥 קוקאין 🍫 🔥</div>
+            <div class="card">🔥 אמדי 🍫 🔥</div>
+            <div class="card">🔥 אקסטות 🍬 🔥</div>
+            <div class="card">🔥 דוסה 🎯 🔥</div>
+            <div class="card">🔥 קטמין 🥜 🔥</div>
+            <div class="card">🔥 קרטונים🍯 🔥</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="why-us" id="about">
+        <div class="container">
+          <h2>מדוע לבחור בנו?</h2>
+          <div class="grid three">
+            <div class="reason-card">🚀 משלוח מהיר</div>
+            <div class="reason-card">💬 שירות אישי בטלגרם</div>
+            <div class="reason-card">🍀 מבצעים מתחלפים</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery" id="gallery">
+        <div class="container">
+          <h2>גלריית מוצרים</h2>
+          <div class="carousel">
+            <div class="slide">
+              <img src="images/cocaine.png" alt="מוצר איכותי" class="product-image">
+              <h3>מוצר איכותי</h3>
+            </div>
+            <div class="slide">
+              <img src="images/ecstasy.png" alt="מוצר איכותי" class="product-image">
+              <h3>מוצר איכותי</h3>
+            </div>
+            <div class="slide">
+              <img src="images/3_mmc.png" alt="מוצר איכותי" class="product-image">
+              <h3>מוצר איכותי</h3>
+            </div>
+            <div class="slide">
+              <img src="images/ketamine.png" alt="מוצר איכותי" class="product-image">
+              <h3>מוצר איכותי</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="container">
+        <p>
+          צרו קשר בטלגרם:
+          <a href="https://t.me/m/zHb8vk3oNDU0" target="_blank" rel="noopener noreferrer">@Mr_Robot_420</a>
+        </p>
+        <p>שעות פעילות: א׳–ה׳ 24/7</p>
+        <p>© 2024 MR_ROBOT. כל הזכויות שמורות.</p>
+      </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+  </body>
+  </html>
